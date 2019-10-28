@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      //int f = 7600
+      //int th,h,t,u; //Thousands,hundreds,tens,units
+      var n = prompt("What is your number?");
+      var q = Math.floor(n%10);    //ones
+      var y = Math.floor((n/10)%10); //tens
+      var e = Math.floor ((n/100)%10); //huns
+      var w = Math.floor((n/1000)%10); //thous
+      //var s = prompt("Your solution is" + "q" + "y" + "e" + "w");
+      console.log("q = "+q);
+      console.log("y ="+y);
+      console.log("e = "+e);
+      console.log("w = "+w);
+   </script>
+  </body>
+</html>
